@@ -1,0 +1,15 @@
+{
+  "extends": ["next/core-web-vitals", "airbnb"],
+  "rules": {
+    "arrow-body-style": ["off"]
+  },
+  "parser": "@typescript-eslint/parser",
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parserOptions": {
+        "project": ["./tsconfig.json"]
+      }
+    }
+  ]
+}
